@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TurkMedya Case Çalışması</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-main">
+        <div class="container">
+          <div class="row wrapper">
+            <div
+              class="col-sm-4 d-flex flex-column justify-content-center font-size-13 line-height-sm"
+            >
+              <div class="margin-bottom-sm">İSTANBUL <b>24°C / 16°C</b></div>
+
+              <div class="font-size-11 italic">Parçalı bulutlu, güneşli</div>
+            </div>
+            <div
+              class="col-sm-4 d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="logo"></div>
+              <div
+                class="font-size-10 margin-top-sm margin-right-md text-center"
+              >
+                21 Eylül 2023 Perşembe / 7 RebiülEvvel 1445
+              </div>
+            </div>
+            <div
+              class="col-sm-4 d-flex flex-column align-items-end justify-content-center lime-height-sm"
+            >
+              <div
+                class="theme-select d-flex align-items-center margin-top-md bg-dark text-white position-absolute top-0 font-size-10"
+              >
+                <i class="fa-solid fa-moon margin-right-sm"></i>
+                Gece Modu
+              </div>
+              <div class="font-size-13">
+                <div class="line-height-sm">
+                  İSTANBUL
+                  <span class="margin-left-sm font-weight-7 font-size-13"
+                    >02:05:50</span
+                  >
+                </div>
+                <div class="font-size-10 italic text-end">Akşam kalan süre</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-sub">
+        <div class="container">
+          <div
+            class="wrapper d-flex justify-content-between align-items-center"
+          >
+            <ul
+              class="d-flex justify-content-between font-weight-7 w-100 align-items-center font-size-15"
+            >
+              <li><a href="/son-dakika"> SON DAKİKA </a></li>
+              <li><a href="/guncel/">GÜNCEL</a></li>
+              <li><a href="/dunya/">DÜNYA</a></li>
+              <li><a href="/ekonomi/">EKONOMİ</a></li>
+              <li><a href="/spor/">SPOR</a></li>
+              <li><a href="/yasam/">YAŞAM</a></li>
+              <li><a href="/teknoloji/">BİLİM-TEKNOLOJİ</a></li>
+              <li><a href="/acik-gorus/" target="_blank">AÇIK GÖRÜŞ</a></li>
+              <li><a href="/yazarlar/">YAZARLAR</a></li>
+              <li><a href="/turizm-seyahat/">SEYAHAT</a></li>
+              <li>
+                <i class="fa-solid fa-bars cursor-pointer"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header-widget bg-black text-white">
+        <div class="container">
+          <div
+            class="wrapper d-flex justify-content-between align-items-center"
+          >
+            <div class="left-side">
+              <a href="/ekonomi/">
+                <ul
+                  class="exchange d-flex align-items-center line-height-sm font-size-13 mb-0"
+                >
+                  <li class="d-flex align-items-center margin-right-lg">
+                    <div class="title margin-right-sm">DOLAR</div>
+                    <div class="value font-weight-7 font-size-13">27,1154</div>
+                  </li>
+                  <li class="d-flex align-items-center margin-right-lg">
+                    <div class="title margin-right-sm">EURO</div>
+                    <div class="value font-weight-7 font-size-13">28,9263</div>
+                  </li>
+                  <li class="d-flex align-items-center margin-right-lg">
+                    <div class="title margin-right-sm">ALTIN</div>
+                    <div class="value font-weight-7 font-size-13">1673.42</div>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <div class="title margin-right-sm">BIST100</div>
+                    <div class="value font-weight-7 font-size-13">7996.08</div>
+                  </li>
+                </ul></a
+              >
+            </div>
+            <div class="right-side">
+              <div class="d-flex align-items-center">
+                <ul
+                  class="d-flex align-items-center margin-right-lg line-height-sm"
+                >
+                  <li class="margin-right-md">
+                    <a class="d-flex align-items-center" href="/foto-galeri/">
+                      <div class="icon icon-gallery margin-right-sm"></div>
+                      <div class="font-size-13 font-weight-5">
+                        FOTO GALERİ
+                      </div></a
+                    >
+                  </li>
+                  <li class="margin-right-md">
+                    <a class="flex middle" href="/video/">
+                      <div
+                        class="icon icon-video-gallery margin-right-sm"
+                      ></div>
+                      <div class="font-size-13 line-height-sm font-weight-5">
+                        VİDEO GALERİ
+                      </div></a
+                    >
+                  </li>
+                  <li>
+                    <a class="flex middle" href="/canli-yayin/">
+                      <div class="icon icon-live margin-right-sm"></div>
+                      <div class="font-size-13 line-height-sm font-weight-5">
+                        CANLI YAYIN
+                      </div></a
+                    >
+                  </li>
+                </ul>
+                <ul
+                  class="share-header d-flex justify-content-center font-size-16 text-black margin-right-lg"
+                >
+                  <li class="margin-right-sm">
+                    <a
+                      href="https://www.facebook.com/stargazete"
+                      target="_blank"
+                      ><i
+                        class="icon fa-brands fa-facebook bg-black radius-circle font-size-9"
+                      ></i
+                    ></a>
+                  </li>
+                  <li class="margin-right-sm">
+                    <a href="https://twitter.com/stargazete" target="_blank"
+                      ><i
+                        class="icon fa-brands fa-x bg-black radius-circle font-size-9"
+                      ></i
+                    ></a>
+                  </li>
+                  <li class="margin-right-sm">
+                    <a
+                      href="https://www.instagram.com/stargazete/"
+                      target="_blank"
+                      ><i
+                        class="icon fa-brands fa-instagram bg-black radius-circle font-size-9"
+                      ></i
+                    ></a>
+                  </li>
+                  <li class="margin-right-sm">
+                    <a
+                      href="https://www.youtube.com/channel/UCv4lXYH3XXLUHl54aykON0A?sub_confirmation=1"
+                      target="_blank"
+                      ><i
+                        class="icon fa-brands fa-youtube bg-black radius-circle font-size-9"
+                      ></i
+                    ></a>
+                  </li>
+                  <li class="margin-right-sm">
+                    <a
+                      href="https://www.threads.net/@stargazete"
+                      target="_blank"
+                      ><i class="icon bg-black radius-circle font-size-9"
+                        ><svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M16.7049 11.108C16.5429 8.121 14.9109 6.411 12.1709 6.394C10.5189 6.384 9.13785 7.084 8.29185 8.367L9.79985 9.4C10.4339 8.439 11.4349 8.24 12.1599 8.247C13.0629 8.253 13.7429 8.515 14.1839 9.027C14.5039 9.399 14.7189 9.914 14.8259 10.563C14.0259 10.427 13.1599 10.385 12.2359 10.438C9.62985 10.588 7.95585 12.108 8.06785 14.219C8.12485 15.29 8.65785 16.212 9.56985 16.814C10.3399 17.323 11.3339 17.571 12.3649 17.515C13.7279 17.44 14.7969 16.92 15.5429 15.97C16.1089 15.248 16.4669 14.312 16.6249 13.134C17.2749 13.526 17.7549 14.041 18.0219 14.661C18.4739 15.715 18.4999 17.447 17.0869 18.859C15.8489 20.095 14.3609 20.631 12.1119 20.647C9.61685 20.629 7.72985 19.828 6.50385 18.269C5.35385 16.809 4.76085 14.699 4.73885 12C4.76085 9.3 5.35485 7.191 6.50385 5.73C7.72985 4.171 9.61685 3.371 12.1119 3.353C14.6249 3.372 16.5439 4.175 17.8179 5.743C18.4429 6.511 18.9129 7.477 19.2239 8.603L20.9899 8.133C20.6129 6.746 20.0209 5.551 19.2159 4.56C17.5829 2.55 15.1829 1.521 12.1059 1.5C9.03485 1.521 6.67285 2.555 5.08685 4.571C3.67585 6.366 2.94685 8.877 2.92285 12.007C2.94685 15.137 3.67585 17.634 5.08685 19.429C6.67385 21.445 9.04685 22.479 12.1169 22.5C14.8479 22.481 16.7719 21.766 18.3569 20.183C20.4319 18.11 20.3689 15.513 19.6859 13.919C19.1609 12.694 18.1159 11.713 16.7059 11.109L16.7049 11.108ZM12.2669 15.665C11.1249 15.729 9.93885 15.217 9.87985 14.119C9.83685 13.305 10.4599 12.397 12.3369 12.289C13.1852 12.232 14.0373 12.2906 14.8699 12.463C14.6539 15.165 13.3849 15.603 12.2669 15.665Z"
+                            fill="black"
+                          ></path></svg></i
+                    ></a>
+                  </li>
+                </ul>
+                <i class="fa-solid fa-search font-size-15 cursor-pointer"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="breaking-news">
+        <div class="container">
+          <div
+            class="wrapper d-flex align-items-center text-white position-relative"
+          >
+            <h3
+              class="title-1 font-size-16 line-height-sm font-weight-7 margin-right-lg"
+            >
+              <a href="/son-dakika/" alt="Son Dakika Haberleri"
+                >SON <br />
+                DAKİKA</a
+              >
+            </h3>
+            <div class="swiper-container breaking-news-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a
+                    class="full-link"
+                    href="/dunya/rus-donanmasi-kalbi-vuruldu-kirim-sarsildi-haber-1814176/"
+                    target="_blank"
+                    >Rus donanmasının kalbi vuruldu! Kırım sarsıldı</a
+                  >
+                  <div class="d-flex align-items-center margin-right-md">
+                    <div
+                      class="time font-size-10 font-weight-7 margin-right-sm text-black line-height-sm padding-sm"
+                    >
+                      14:11
+                    </div>
+                    <h3 class="font-size-13">
+                      Rus donanmasının kalbi vuruldu! Kırım sarsıldı
+                    </h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <a
+                    class="full-link"
+                    href="/acik-gorus/bm-reformu-kacinilmaz-haber-1814175/"
+                    target="_blank"
+                    >BM reformu kaçınılmaz</a
+                  >
+                  <div class="d-flex align-items-center margin-right-md">
+                    <div
+                      class="time font-size-10 font-weight-7 margin-right-sm text-black line-height-sm padding-sm"
+                    >
+                      14:06
+                    </div>
+                    <h3 class="font-size-13">BM reformu kaçınılmaz</h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <a
+                    class="full-link"
+                    href="/dunya/kremlin-avrupayi-isaret-edip-acikladi-polonyadan-sonra-kacinilmaz-haber-1814174/"
+                    target="_blank"
+                    >Kremlin, Avrupa'yı işaret edip açıkladı: Polonya'dan sonra
+                    kaçınılmaz</a
+                  >
+                  <div class="d-flex align-items-center margin-right-md">
+                    <div
+                      class="time font-size-10 font-weight-7 margin-right-sm text-black line-height-sm padding-sm"
+                    >
+                      14:03
+                    </div>
+                    <h3 class="font-size-13">
+                      Kremlin, Avrupa'yı işaret edip açıkladı: Polonya'dan sonra
+                      kaçınılmaz
+                    </h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <a
+                    class="full-link"
+                    href="/guncel/eski-kiyikoy-belediye-baskani-sevince-5-yil-6-ay-hapis-cezasi-haber-1814173/"
+                    target="_blank"
+                    >Eski Kıyıköy Belediye Başkanı Sevinç'e 5 yıl 6 ay hapis
+                    cezası</a
+                  >
+                  <div class="d-flex align-items-center margin-right-md">
+                    <div
+                      class="time font-size-10 font-weight-7 margin-right-sm text-black line-height-sm padding-sm"
+                    >
+                      13:59
+                    </div>
+                    <h3 class="font-size-13">
+                      Eski Kıyıköy Belediye Başkanı Sevinç'e 5 yıl 6 ay hapis
+                      cezası
+                    </h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <a
+                    class="full-link"
+                    href="/guncel/yok-baskani-erol-ozvardan-aciklama-haber-1814198/"
+                    target="_blank"
+                    >YÖK Başkanı Erol Özvar'dan açıklama</a
+                  >
+                  <div class="d-flex align-items-center margin-right-md">
+                    <div
+                      class="time font-size-10 font-weight-7 margin-right-sm text-black line-height-sm padding-sm"
+                    >
+                      15:36
+                    </div>
+                    <h3 class="font-size-13">
+                      YÖK Başkanı Erol Özvar'dan açıklama
+                    </h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <a
+                    class="full-link"
+                    href="/dunya/duda-tahil-konusunun-ukraynayla-iliskilerimizi-etkileyebilecegine-inanmiyorum-haber-1814199/"
+                    target="_blank"
+                    >Duda: Tahıl konusunun Ukrayna'yla ilişkilerimizi
+                    etkileyebileceğine inanmıyorum</a
+                  >
+                  <div class="d-flex align-items-center margin-right-md">
+                    <div
+                      class="time font-size-10 font-weight-7 margin-right-sm text-black line-height-sm padding-sm"
+                    >
+                      15:42
+                    </div>
+                    <h3 class="font-size-13">
+                      Duda: Tahıl konusunun Ukrayna'yla ilişkilerimizi
+                      etkileyebileceğine inanmıyorum
+                    </h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <a
+                    class="full-link"
+                    href="/spor/bekleyis-sona-eriyor-arda-gulerin-yesil-sahalara-donus-tarihi-belli-oldu-haber-1814197/"
+                    target="_blank"
+                    >A. Güler'in dönüş tarihi belli oldu</a
+                  >
+                  <div class="d-flex align-items-center margin-right-md">
+                    <div
+                      class="time font-size-10 font-weight-7 margin-right-sm text-black line-height-sm padding-sm"
+                    >
+                      15:34
+                    </div>
+                    <h3 class="font-size-13">
+                      A. Güler'in dönüş tarihi belli oldu
+                    </h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <a
+                    class="full-link"
+                    href="/dunya/zamanlamasi-manidar-iran-yeni-kamikazelerini-gorucuye-cikardi-haber-1814192/"
+                    target="_blank"
+                    >Zamanlaması manidar! İran yeni 'kamikaze'lerini görücüye
+                    çıkardı</a
+                  >
+                  <div class="d-flex align-items-center margin-right-md">
+                    <div
+                      class="time font-size-10 font-weight-7 margin-right-sm text-black line-height-sm padding-sm"
+                    >
+                      15:07
+                    </div>
+                    <h3 class="font-size-13">
+                      Zamanlaması manidar! İran yeni 'kamikaze'lerini görücüye
+                      çıkardı
+                    </h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <a
+                    class="full-link"
+                    href="/guncel/iyi-parti-ve-chp-izmirde-birbirine-dustu-aksenerin-adayi-tunc-soyeri-topa-tuttu-haber-1814190/"
+                    target="_blank"
+                    >Akşener'in adayı Tunç Soyer'i topa tuttu</a
+                  >
+                  <div class="d-flex align-items-center margin-right-md">
+                    <div
+                      class="time font-size-10 font-weight-7 margin-right-sm text-black line-height-sm padding-sm"
+                    >
+                      15:06
+                    </div>
+                    <h3 class="font-size-13">
+                      Akşener'in adayı Tunç Soyer'i topa tuttu
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="arrows">
+              <div class="swiper-button-prev">
+                <i
+                  class="text-white fa-solid fa-chevron-left cursor-pointer position-absolute padding-sm font-size-18 center-vertical"
+                ></i>
+              </div>
+              <div class="swiper-button-next">
+                <i
+                  class="text-white fa-solid fa-chevron-right cursor-pointer position-absolute padding-sm font-size-18 center-vertical radius-circle"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-home margin-bottom-lg">
+        <div class="container">
+          <div class="mast-head d-flex justify-content-center cursor-pointer">
+            <img
+              src="https://trgde.adocean.pl/files/akalsjjinto/plcrirltpv/ohlnpmmnms/Star-970x250.jpg"
+              alt=""
+            />
+          </div>
+          <div class="main-slider">
+            <div class="slider-main swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a
+                    href="https://www.star.com.tr/dunya/bm-78-genel-kurul-toplantisi-ve-turkiye-yuzyilinin-diplomasi-kodlari-haber-1814202/"
+                    target="_blank"
+                  >
+                    <div class="image-wrapper">
+                      <img
+                        src="https://imgs.stargazete.com/imgsdisk/2023/09/22/bm-78-genel-kurul-toplant-166.jpg"
+                        alt="BM 78. Genel Kurul Toplantısı ve ‘Türkiye Yüzyılı'nın diplomasi kodları"
+                      />
+                    </div>
+                    <div
+                      class="content position-absolute left-0 bottom-0 padding-lg"
+                    >
+                      <h3 class="title padding-lg text-white font-weight-7">
+                        BM 78. Genel Kurul Toplantısı ve ‘Türkiye Yüzyılı'nın
+                        diplomasi kodları
+                      </h3>
+                    </div></a
+                  >
+                </div>
+                <div class="swiper-slide">
+                  <a
+                    href="https://www.star.com.tr/guncel/meral-aksenerden-cumhur-ittifaki-cikisi-birbirini-masanin-altinda-tekmelemeyen-bir-sistemi-var-haber-1814164/"
+                    target="_blank"
+                  >
+                    <div class="image-wrapper">
+                      <img
+                        src="https://imgs.stargazete.com/imgsdisk/2023/09/22/meral-aksenerden-cumhur-i-444.jpg"
+                        alt="Meral Akşener'den Cumhur İttifakı çıkışı: Birbirini masanın altında tekmelemeyen bir sistemi var"
+                      />
+                    </div>
+                    <div class="content absolute left-0 bottom-0 padding-lg">
+                      <h3 class="title padding-lg text-white font-weight-7">
+                        Meral Akşener'den Cumhur İttifakı çıkışı: Birbirini
+                        masanın altında tekmelemeyen bir sistemi var
+                      </h3>
+                    </div></a
+                  >
+                </div>
+                <div class="swiper-slide">
+                  <a
+                    href="https://www.star.com.tr/ekonomi/buravovdan-amiral-gemisi-nitelemesi-turkiye-rolunu-guclendirme-firsati-buldu-haber-1814118/"
+                    target="_blank"
+                  >
+                    <div class="image-wrapper">
+                      <img
+                        src="https://imgs.stargazete.com/imgsdisk/2023/09/22/buravovdan-amiral-gemisi--215.jpg"
+                        alt="Buravov'dan 'amiral gemisi' nitelemesi: Türkiye rolünü güçlendirme fırsatı buldu"
+                      />
+                    </div>
+                    <div class="content absolute left-0 bottom-0 padding-lg">
+                      <h3 class="title padding-lg text-white font-weight-7">
+                        Buravov'dan 'amiral gemisi' nitelemesi: Türkiye rolünü
+                        güçlendirme fırsatı buldu
+                      </h3>
+                    </div></a
+                  >
+                </div>
+                <div class="swiper-slide">
+                  <a
+                    href="https://www.star.com.tr/guncel/mitten-sincarda-nokta-operasyon-teroristbasi-kasim-ve-korumalari-etkisiz-hale-getirildi-haber-1814091/"
+                    target="_blank"
+                  >
+                    <div class="image-wrapper">
+                      <img
+                        src="https://imgs.stargazete.com/imgsdisk/2023/09/22/mitten-sincarda-nokta-ope-251.jpg"
+                        alt="MİT'ten Sincar'da nokta operasyon! Teröristbaşı Kasım ve korumaları etkisiz hale getirildi"
+                      />
+                    </div>
+                    <div class="content absolute left-0 bottom-0 padding-lg">
+                      <h3 class="title padding-lg text-white font-weight-7">
+                        MİT'ten Sincar'da nokta operasyon! Teröristbaşı Kasım ve
+                        korumaları etkisiz hale getirildi
+                      </h3>
+                    </div></a
+                  >
+                </div>
+                <div class="swiper-slide">
+                  <a
+                    href="https://www.star.com.tr/dunya/bm-kursusunde-konusan-micotakisten-turkiye-aciklamasi-haber-1814069/"
+                    target="_blank"
+                  >
+                    <div class="image-wrapper">
+                      <img
+                        src="https://imgs.stargazete.com/imgsdisk/2023/09/22/bm-kursusunde-konusan-mic-841.jpg"
+                        alt="BM kürsüsünde konuşan Miçotakis'ten Türkiye açıklaması"
+                      />
+                    </div>
+                    <div class="content absolute left-0 bottom-0 padding-lg">
+                      <h3 class="title padding-lg text-white font-weight-7">
+                        BM kürsüsünde konuşan Miçotakis'ten Türkiye açıklaması
+                      </h3>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="swiper-prev"></div>
+              <div class="swiper-next"></div>
+              <div class="slider-pagination bg-black">
+                <ul class="d-flex justify-content-between">
+                  <li
+                    data-slide-index="0"
+                    class="equal padding-md relative active"
+                  >
+                    <a
+                      href="https://www.star.com.tr/dunya/bm-78-genel-kurul-toplantisi-ve-turkiye-yuzyilinin-diplomasi-kodlari-haber-1814202/"
+                      target="_blank"
+                    >
+                      <div class="d-flex">
+                        <img
+                          class="margin-top-sm radius-circle margin-right-md"
+                          src="https://imgs.stargazete.com/imgsdisk/2023/09/22/bm-78-genel-kurul-toplant-994_2-53.jpg"
+                          alt="alt="
+                        />
+                        <h3
+                          class="title font-size-15 text-white line-camp line-3"
+                        >
+                          BM 78. Genel Kurul Toplantısı ve ‘Türkiye Yüzyılı'nın
+                          diplomasi kodları
+                        </h3>
+                      </div></a
+                    >
+                  </li>
+
+                  <li data-slide-index="1" class="equal padding-md relative">
+                    <a
+                      href="https://www.star.com.tr/guncel/meral-aksenerden-cumhur-ittifaki-cikisi-birbirini-masanin-altinda-tekmelemeyen-bir-sistemi-var-haber-1814164/"
+                      target="_blank"
+                    >
+                      <div class="d-flex">
+                        <img
+                          class="margin-top-sm radius-circle margin-right-md"
+                          src="https://imgs.stargazete.com/imgsdisk/2023/09/22/meral-aksenerden-cumhur-i-444_2-53.jpg"
+                          alt="alt="
+                        />
+                        <h3
+                          class="title font-size-15 text-white line-camp line-3"
+                        >
+                          Meral Akşener'den Cumhur İttifakı çıkışı: Birbirini
+                          masanın altında tekmelemeyen bir sistemi var
+                        </h3>
+                      </div></a
+                    >
+                  </li>
+
+                  <li data-slide-index="2" class="equal padding-md relative">
+                    <a
+                      href="https://www.star.com.tr/ekonomi/buravovdan-amiral-gemisi-nitelemesi-turkiye-rolunu-guclendirme-firsati-buldu-haber-1814118/"
+                      target="_blank"
+                    >
+                      <div class="d-flex">
+                        <img
+                          class="margin-top-sm radius-circle margin-right-md"
+                          src="https://imgs.stargazete.com/imgsdisk/2023/09/22/buravovdan-amiral-gemisi--215_2-53.jpg"
+                          alt="alt="
+                        />
+                        <h3
+                          class="title font-size-15 text-white line-camp line-3"
+                        >
+                          Buravov'dan 'amiral gemisi' nitelemesi: Türkiye rolünü
+                          güçlendirme fırsatı buldu
+                        </h3>
+                      </div></a
+                    >
+                  </li>
+
+                  <li data-slide-index="3" class="equal padding-md relative">
+                    <a
+                      href="https://www.star.com.tr/guncel/mitten-sincarda-nokta-operasyon-teroristbasi-kasim-ve-korumalari-etkisiz-hale-getirildi-haber-1814091/"
+                      target="_blank"
+                    >
+                      <div class="d-flex">
+                        <img
+                          class="margin-top-sm radius-circle margin-right-md"
+                          src="https://imgs.stargazete.com/imgsdisk/2023/09/22/mitten-sincarda-nokta-ope-251_2-53.jpg"
+                          alt="alt="
+                        />
+                        <h3
+                          class="title font-size-15 text-white line-camp line-3"
+                        >
+                          MİT'ten Sincar'da nokta operasyon! Teröristbaşı Kasım
+                          ve korumaları etkisiz hale getirildi
+                        </h3>
+                      </div></a
+                    >
+                  </li>
+
+                  <li data-slide-index="4" class="equal padding-md relative">
+                    <a
+                      href="https://www.star.com.tr/dunya/bm-kursusunde-konusan-micotakisten-turkiye-aciklamasi-haber-1814069/"
+                      target="_blank"
+                    >
+                      <div class="d-flex">
+                        <img
+                          class="margin-top-sm radius-circle margin-right-md"
+                          src="https://imgs.stargazete.com/imgsdisk/2023/09/22/bm-kursusunde-konusan-mic-841_2-53.jpg"
+                          alt="alt="
+                        />
+                        <h3
+                          class="title font-size-15 text-white line-camp line-3"
+                        >
+                          BM kürsüsünde konuşan Miçotakis'ten Türkiye açıklaması
+                        </h3>
+                      </div></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ca279fb79b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const breakingNewsSwiper = new Swiper(".breaking-news-slider", {
+          direction: "horizontal",
+          slidesPerView: "auto",
+          loop: true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          autoplay: {
+            delay: 7000,
+          },
+        });
+
+        const mainSliderSwiper = new Swiper(".slider-main", {
+          direction: "horizontal",
+          slidesPerView: 1,
+          speed: 0,
+          loop: true,
+          navigation: {
+            nextEl: ".swiper-next",
+            prevEl: ".swiper-prev",
+          },
+        });
+
+        const paginationItems = document.querySelectorAll(
+          ".slider-pagination li"
+        );
+
+        paginationItems.forEach((item) => {
+          item.addEventListener("mouseover", () => {
+            const slideIndex = item.getAttribute("data-slide-index");
+
+            paginationItems.forEach((paginationItem) => {
+              paginationItem.classList.remove("active");
+            });
+
+            item.classList.add("active");
+
+            mainSliderSwiper.slideTo(slideIndex);
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
